@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World! Testando meu github!!");
+        System.out.println("Primeira classe:");
+        Celular meuCelular = new Celular();
+
+        
     }
 }
