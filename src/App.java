@@ -7,8 +7,9 @@ public class App {
 
         // Imprimindo informações do celular
         System.out.println("Informações iniciais do Celular:");
-        System.out.println();
         System.out.println(meuCelular);
+
+        System.out.println();
 
         // Criando um objeto CelularBateria
         CelularBateria meuCelularComBateria = new CelularBateria("iPhone 12", "Apple", "987654321");
@@ -21,6 +22,8 @@ public class App {
         meuCelularComBateria.carregarBateria(30);
         meuCelularComBateria.verificarNivelBateria();
 
+        System.out.println();
+
         // Criando um objeto CelularTela
         CelularTela meuCelularComTela = new CelularTela("Galaxy A52", "Samsung", "987-6543");
 
@@ -31,6 +34,8 @@ public class App {
         // Ligando e desligando a tela
         meuCelularComTela.ligarTela();
         meuCelularComTela.desligarTela();
+
+        System.out.println();
 
         // Criando um objeto CelularVolume
         CelularVolume meuCelularComVolume = new CelularVolume("Pixel 5", "Google", "789-0123");
@@ -43,6 +48,8 @@ public class App {
         meuCelularComVolume.aumentarVolume();
         meuCelularComVolume.diminuirVolume();
 
+        System.out.println();
+
         // Criando um objeto CelularWifi
         CelularWifi meuCelularComWifi = new CelularWifi("Galaxy S21", "Samsung", "123-4567");
     
@@ -53,6 +60,8 @@ public class App {
         // Conectando e desconectando o Wi-Fi
         meuCelularComWifi.conectarWifi();
         meuCelularComWifi.desconectarWifi();
+
+        System.out.println();
 
         // Criando um objeto CelularBrilho
         CelularBrilho meuCelularComBrilho = new CelularBrilho("Galaxy S22", "Samsung", "987-6543");
