@@ -43,5 +43,17 @@ public class App {
         meuCelularComVolume.aumentarVolume();
         meuCelularComVolume.diminuirVolume();
 
+        // Criando um objeto CelularWifi
+        CelularWifi meuCelularComWifi = new CelularWifi("Galaxy S21", "Samsung", "123-4567");
+    
+        // Imprimindo informações do celular com Wi-Fi
+        System.out.println("Informações do Celular com Wi-Fi:");
+        System.out.println(meuCelularComWifi);
+
+        // Conectando e desconectando o Wi-Fi
+        meuCelularComWifi.conectarWifi();
+        meuCelularComWifi.desconectarWifi();
+
+
     }
 }
