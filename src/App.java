@@ -21,5 +21,16 @@ public class App {
         meuCelularComBateria.carregarBateria(30);
         meuCelularComBateria.verificarNivelBateria();
 
+        // Criando um objeto CelularTela
+        CelularTela meuCelularComTela = new CelularTela("Galaxy A52", "Samsung", "987-6543");
+
+        // Imprimindo informações do celular com tela
+        System.out.println("Informações do Celular com Tela:");
+        System.out.println(meuCelularComTela);
+
+        // Ligando e desligando a tela
+        meuCelularComTela.ligarTela();
+        meuCelularComTela.desligarTela();
+
     }
 }
