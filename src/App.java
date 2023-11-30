@@ -54,6 +54,17 @@ public class App {
         meuCelularComWifi.conectarWifi();
         meuCelularComWifi.desconectarWifi();
 
+        // Criando um objeto CelularBrilho
+        CelularBrilho meuCelularComBrilho = new CelularBrilho("Galaxy S22", "Samsung", "987-6543");
+    
+        // Imprimindo informações do celular com brilho
+        System.out.println("Informações do Celular com Brilho:");
+        System.out.println(meuCelularComBrilho);
+
+        // Ajustando o brilho
+        meuCelularComBrilho.aumentarBrilho();
+        meuCelularComBrilho.diminuirBrilho();
+
 
     }
 }
