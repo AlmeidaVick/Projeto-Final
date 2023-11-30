@@ -32,5 +32,16 @@ public class App {
         meuCelularComTela.ligarTela();
         meuCelularComTela.desligarTela();
 
+        // Criando um objeto CelularVolume
+        CelularVolume meuCelularComVolume = new CelularVolume("Pixel 5", "Google", "789-0123");
+
+        // Imprimindo informações do celular com volume
+        System.out.println("Informações do Celular com Volume:");
+        System.out.println(meuCelularComVolume);
+
+        // Ajustando o volume
+        meuCelularComVolume.aumentarVolume();
+        meuCelularComVolume.diminuirVolume();
+
     }
 }
